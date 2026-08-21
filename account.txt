@@ -1,0 +1,3 @@
+worker01:masuk123
+worker02:masuk123
+worker03:masuk123
