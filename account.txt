@@ -1,3 +1,3 @@
-frey01:masuk123
-frey02:masuk123
-frey03:masuk123
+data01:masuk123
+data02:masuk123
+data03:masuk123
