@@ -1136,8 +1136,8 @@ async function processNextHit() {
                 page = await context.newPage();
 
                 await page.goto('https://kxntu.com/login', { waitUntil: 'networkidle' });
-                await page.fill('#l-username', account.username);
-                await page.fill('#l-password', account.password); 
+                await page.fill('#username', account.username);
+                await page.fill('#password', account.password); 
                 await page.click('button[type="submit"].btn-primary');
                 await page.waitForLoadState('networkidle');
 
