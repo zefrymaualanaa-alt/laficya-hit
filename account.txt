@@ -1,3 +1,8 @@
+anak01:masuk123
+anak02:masuk123
+anak03:masuk123
+anak04:masuk123
+anak05:masuk123
 kambing01:masuk123
 kambing02:masuk123
 kambing03:masuk123
