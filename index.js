@@ -514,7 +514,7 @@ async function processNextHit() {
                 `<b>Status Akhir       :</b> <code>Operasi Ekstraksi Berhasil</code>\n` +
                 `</blockquote>\n\n` +
                 `<b>Keterangan Tambahan:</b>\n` +
-                `<i>Sistem telah menyelesaikan tugas dengan sukses. Jika Anda membutuhkan standarisasi format atau verifikasi live/dead lanjutan, silakan teruskan file output di bawah ini ke bot manajemen @corvastcookie_bot agar diproses lebih lanjut.</i>`;
+                `<i>Sistem telah menyelesaikan tugas dengan sukses. Jika Anda membutuhkan standarisasi format atau verifikasi live/dead lanjutan, silakan teruskan file output di bawah ini ke bot manajemen @converterlaficyabot agar diproses lebih lanjut.</i>`;
             
             await ctx.reply(summaryLayout, { parse_mode: 'HTML' });
 
