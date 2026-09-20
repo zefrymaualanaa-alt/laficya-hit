@@ -1,10 +1,5 @@
-pe01:masuk123
-pe02:masuk123
-pe03:masuk123
-pe04:masuk123
-pe05:masuk123
-pe06:masuk123
-pe07:masuk123
-pe08:masuk123
-pe09:masuk123
-pe10:masuk123
+asu01:masuk123
+asu02:masuk123
+asu03:masuk123
+asu04:masuk123
+asu05:masuk123
