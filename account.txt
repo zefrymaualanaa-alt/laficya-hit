@@ -1,5 +1,5 @@
-asu01:masuk123
-asu02:masuk123
-asu03:masuk123
-asu04:masuk123
-asu05:masuk123
+la01:masuk123
+la02:masuk123
+la03:masuk123
+la04:masuk123
+la05:masuk123
