@@ -278,7 +278,7 @@ bot.command('hit', async (ctx) => {
     const args = ctx.message.text.split(' ');
     if (args.length < 2 || isNaN(parseInt(args[1]))) return ctx.reply('⚠️ <b>Format Input Invalid</b>\nPanduan penggunaan: <code>/hit &lt;jumlah&gt;</code>\nContoh: <code>/hit 5</code>', { parse_mode: 'HTML' });
     
-    let targetTotal = parseInt(args[1]) === 0 || parseInt(args[1]) > 100 ? 100 : parseInt(args[1]);
+    let targetTotal = parseInt(args[1]) === 0 || parseInt(args[1]) > 20 ? 20 : parseInt(args[1]);
     handleHitQueue(ctx, currentUserId, targetTotal);
 });
 
@@ -309,7 +309,7 @@ bot.action('action_menu_bot', (ctx) => {
     const menuText = `<b>[ PUSAT KENDALI SISTEM ]</b>\n━━━━━━━━━━━━━━━━━━━━━\n\n` +
         `Berikut adalah modul perintah utama yang tersedia di sistem DND:\n\n` +
         `<b>🚀 Modul Eksekusi</b>\n` +
-        `• <code>/hit [jumlah]</code> : Eksekusi manual mesin ekstraksi (Maks 100).\n` +
+        `• <code>/hit [jumlah]</code> : Eksekusi manual mesin ekstraksi (Maks 20).\n` +
         `• <code>/cekantrian</code> : Pantau status lalu lintas server secara <i>real-time</i>.\n\n` +
         `<b>👑 Modul Administrator</b>\n` +
         `• <code>/addvip @username [durasi]</code> : Mendaftarkan kredensial VIP baru.\n` +
